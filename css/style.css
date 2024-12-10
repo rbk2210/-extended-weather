@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app__container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 190, 207);
+}
+.container{
+    max-width: 320px;
+    height: 95vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    background-color: rgb(154, 214, 248);
+}
+
+.title__principal{
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* Container input */
+.input__container{
+    width: 100%;
+    height: 7vh;
+    padding: 2%;
+}
+
+.entry{
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 2rem;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+.entry__btn{
+    font-size: .8rem;
+    padding: .3rem;
+    border: none;
+    background-color: rgb(165, 162, 162);
+    font-weight: bold;
+    color: #0e0d0d;
+}
+
+.entry__btn:hover{
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(116, 114, 114);
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Info Container */
+
+.info__container{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: .6fr .4fr;
+}
+
+
+
+.today__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.area{
+    font-size: 2rem;
+}
+
+.temp{
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.description{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+
+/* Extend container */
+
+.extend__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.extend__info img{
+    width: 80%;
+}
+
+.days{
+    width: 30%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem;
+    display: none;
+}
+
+.title{
+    font-size: .8rem;
+    text-align: center;
+}
+
+.spanmin{
+    color: rgb(1, 27, 100);
+}
+.spanmax{
+    color: rgb(196, 7, 7);
+}
+.days p{
+    font-size: .8rem;
+    font-weight: bold;
+}
