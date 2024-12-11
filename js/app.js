@@ -50,7 +50,7 @@ entryBtn.addEventListener('click',()=>{
     })
     entry.value = ''
     daily()
-    days.style.display = 'blcok'
+    extendsinfo.style.display = 'flex'
 })
 
 function daily(){

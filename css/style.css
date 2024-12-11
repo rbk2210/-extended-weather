@@ -92,14 +92,14 @@
 /* Extend container */
 
 .extend__info{
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
 .extend__info img{
-    width: 80%;
+    width: 60%;
 }
 
 .days{
@@ -108,7 +108,6 @@
     border: 1px solid black;
     border-radius: 10px;
     padding: .5rem;
-    display: none;
 }
 
 .title{
